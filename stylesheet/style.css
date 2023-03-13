@@ -59,10 +59,12 @@ body{
 .etch-controls .slider{
   padding:2px;
 }
+/*
 .slider-border h3{
   margin:0;
   padding:0;
 }
+*/
 button{
   display:flex;
   justify-content: center;
@@ -94,4 +96,12 @@ button:active{
 .control-panel .container .grid .etching {
   background-color:rgb(0, 0, 0);
 }
-
+.slider-controls{
+  margin-top:5px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.slider-output{
+  font-size: 15px;
+}
