@@ -3,12 +3,59 @@ body{
   flex-direction: column;
   align-items: center;
   gap:10px;
-  background-color: rgb(231, 231, 231);
+  /*background-color: rgb(231, 231, 231);*/
+  background-color: #926AA6;
+  padding-bottom: 0;
+  margin-top:10px;
+  margin-bottom:0;
+}
+/*
+ *  Footer Decoration
+ */
+.footer{
+  display:flex;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color:#EFE1CE;
+  width:100vw;
+  padding:20px;
+  border:3px solid black;
+
 }
 
+/*
+  Main Body
+*/
 .control-panel{
   display:flex;
-  gap:10px;
+  gap:5em;
+}
+
+/*
+  Rules and List
+*/
+.title, .rules{
+  border-radius:10px;
+}
+.rules{
+  height: 30vh;
+  background-color:#EFE1CE;
+  padding:10px;
+  border:5px solid black;
+  
+}
+.rules h2{
+  text-decoration: underline;
+  
+}
+.rules ul{
+  padding:0;
+  margin-left:20px;
+}
+.rules li{
+  font-size:20px;
+  margin-bottom:10px;
 }
 .title{
   display:flex;
@@ -17,8 +64,8 @@ body{
   font-weight: bold;
   color:maroon;
   border:4px solid black;
-  border-radius:2px;
   width:50vw;
+  background-color:#EFE1CE;
 }
 
 .container{
@@ -41,30 +88,12 @@ body{
     border: 0.5px solid black;
     background-color: rgb(229, 215, 215);
 }
-/*
-.grid .gridItem:hover {
-    background-color: aqua;
-    cursor: pointer;
-}
-*/
 
-.slider-border{
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  border: 3px solid black;
-  margin-top:10px;
-  padding:15px;
-}
+
 .etch-controls .slider{
   padding:2px;
 }
-/*
-.slider-border h3{
-  margin:0;
-  padding:0;
-}
-*/
+
 button{
   display:flex;
   justify-content: center;
@@ -93,9 +122,14 @@ button:active{
   display:flex;
   justify-content: space-between;
 }
+
+
 .control-panel .container .grid .etching {
   background-color:rgb(0, 0, 0);
 }
+
+
+
 .slider-controls{
   margin-top:5px;
   display:flex;
